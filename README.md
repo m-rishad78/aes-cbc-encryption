@@ -17,7 +17,7 @@
 ## 📂 Project Structure
 
  ```perl
- 📁 AES-CBC-File-Encryption
+ 📁 aes-cbc-encryption
  ├── aes_cipher.py
  └── README.md
  ```
@@ -38,7 +38,7 @@
  - Output file format
 
  ```css
- [Salt][IV][encrypted_data]
+ [Salt][IV][Encrypted_Data]
  ```
 
  This format contains everything needed for secure decryption.
