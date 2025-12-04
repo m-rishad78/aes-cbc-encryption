@@ -52,7 +52,7 @@
 ## 2️⃣ Navigate to the Project Directory
 
  ```bash
- cd AES-CBC-File-Encryption
+ cd aes-cbc-encryption
  ```
 
 ## ▶️ Usage
