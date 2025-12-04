@@ -46,7 +46,7 @@
 ## 1️⃣ Clone the Repository
 
  ```bash
- git clone https://github.com/m-rishad78/AES-CBC-File-Encryption.git
+ git clone https://github.com/m-rishad78/aes-cbc-encryption.git
  ```
 
 ## 2️⃣ Navigate to the Project Directory
