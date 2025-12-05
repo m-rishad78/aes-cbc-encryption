@@ -15,9 +15,16 @@
  - Handles incorrect passwords gracefully
  - Simple interactive CLI
 
+## 🧠 How it works
+
+ - A random **16-bytes Salt** is generated
+ - PBKDF2 derives a **32-byte key** from password 
+ - AES CBC mode encrypts the file data
+ - Output file format
+
 ## 📂 Project Structure
 
- ```perl
+ ```tree
  📁 aes-cbc-encryption
  ├── aes_cipher.py
  └── README.md
@@ -30,13 +37,6 @@
  ```bash
  pip install pycryptodome zxcvbn
  ```
-
-## 🧠 How it works
-
- - A random **16-bytes Salt** is generated
- - PBKDF2 derives a **32-byte key** from password 
- - AES CBC mode encrypts the file data
- - Output file format
 
  ```css
  [Salt][IV][Encrypted_Data]
@@ -66,14 +66,14 @@
 
  Then choose an option
 
- ```css
+ ```text
     1. Encryption
     2. Decryption
  ```
 
 ## 🔑 Encryption Example
 
- ```css
+ ```text
  Enter the Filename: secret.txt
  Enter the Password: ******
  
@@ -85,7 +85,7 @@
 
 ## 🔓 Decryption Example
 
- ```css
+ ```text
  Enter the Filename: secret.txt.enc
  Enter the Password: ******
  
