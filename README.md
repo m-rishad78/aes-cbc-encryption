@@ -38,7 +38,7 @@
  pip install pycryptodome zxcvbn
  ```
 
- ```css
+ ```text
  [Salt][IV][Encrypted_Data]
  ```
 
